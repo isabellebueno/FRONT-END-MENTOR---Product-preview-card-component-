@@ -1,0 +1,79 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+.geral {
+    background: hsl(0, 0%, 100%);
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden; 
+    max-width: 750px;
+    width: 100%;
+}
+
+.imagem {
+    max-width: 100%;
+    width: 400px;
+}
+
+.conteudo {
+    margin: 35px;
+    text-align: left;
+    font-family: "Fraunces";
+    
+
+}
+
+.titulo-tema {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: "Montserrat";
+    color: grey;
+ }
+
+ .titulo {
+    font-size: 40px;
+ }
+
+.texto {
+    font-family: "Montserrat";
+    line-height: 25px;
+    color: gray;
+}
+
+.precos {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 30px 00;
+}
+
+.preco1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+    margin: 0;
+}
+
+.preco2 {
+    text-decoration: line-through;
+    color: gray;
+    font-size: 16px;
+}
+
+.botao {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    background: hsl(158, 42%, 18%);
+    place-content: center;
+    padding: 25px 70px;
+    border-radius: 10px;
+}
